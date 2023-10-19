@@ -725,7 +725,7 @@ function inicializarProductos() {
         { id: 9, descripcion: "Shampoo Free Nature 250 ml", precio: 1200, stock: 4, pathIMG: "./assets/shop09.jpg", categoria: "Bienestar y salud animal" },
         { id: 10, descripcion: "Hueso De Goma PetsPlast", precio: 1200, stock: 3, pathIMG: "./assets/shop10.jpg", categoria: "Juguetes" },
         { id: 11, descripcion: "Transportadora anti estrés", precio: 13900, stock: 3, pathIMG: "./assets/shop11.jpg", categoria: "Bienestar y salud animal" },
-        { id: 12, descripcion: "Cucha simil madera", precio: 17990, stock: 2, pathIMG: ".assets/shop12.jpg", categoria: "Bienestar y salud animal" }
+        { id: 12, descripcion: "Cucha simil madera", precio: 17990, stock: 2, pathIMG: "./assets/shop12.jpg", categoria: "Bienestar y salud animal" }
     ];
 
     for (let i = 0; i < productos.length; i++) {
