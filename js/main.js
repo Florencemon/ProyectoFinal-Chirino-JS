@@ -266,7 +266,7 @@ function renderProductos(oProductos) {
 
     // Si no se encuentran productos, creo un producto vacio para renderizarlo
     if (!oProductos.length) {
-        renderProducto(oFila, new Producto(-1, "VACIO", -1, -1, "../assets/vacio.jpg", "SIN CATEGORIA"));
+        renderProducto(oFila, new Producto(-1, "VACIO", -1, -1, "./assets/vacio.jpg", "SIN CATEGORIA"));
     }
 
     // Cargo todos los productos del storage y los formateo con HTML
@@ -702,7 +702,7 @@ function mostrarPaginaDelCarrito() {
     localStorage.setItem("mostrarPagina", "carrito");
 
     // Si hay usuario logueado, muestro la pagina del carrito, sino muestro la pagina de login
-    window.location.href = oUsuario != null ? "../pages/carrito.html" : "./pages/login.html";
+    window.location.href = oUsuario != null ? "./pages/carrito.html" : "./pages/login.html";
 }
 
  
@@ -761,7 +761,7 @@ function inicializarPagina() {
         renderLogin();
 
         // Y cargo un avatar de no hay usuario logueado
-        document.getElementById("avatar").innerHTML = "<img src='../assets/nouser.png' alt='Avatar sin usuario' class='rounded-circle avatar'>";
+        document.getElementById("avatar").innerHTML = "<img src='./assets/nouser.png' alt='Avatar sin usuario' class='rounded-circle avatar'>";
 
     } else {
 

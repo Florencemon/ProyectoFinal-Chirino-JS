@@ -59,10 +59,10 @@ function ingresarUsuario() {
     
     if (mostrarCarrito == "null" || mostrarCarrito == null) {
         // Si la clave no está establecida, muestro el index
-        oFormLogin.action = "../index.html";
+        oFormLogin.action = "./index.html";
     } else {
         // Si esta establecida, muestro la pagina del carrito
-        oFormLogin.action = "../pages/carrito.html";
+        oFormLogin.action = "./pages/carrito.html";
     }
 
 }

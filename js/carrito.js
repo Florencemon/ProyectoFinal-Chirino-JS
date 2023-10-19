@@ -301,7 +301,7 @@ function quitarDelCarrito(event) {
 
     } else {
         // Si no quedan productos en el carrito, vuelve a la página de inicio
-        window.location.href = "../index.html"
+        window.location.href = "./index.html"
     }
 
 }
@@ -416,7 +416,7 @@ function pagar() {
         denyButtonText: `Cancelar`,
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location.href = "../index.html"
+            window.location.href = "./index.html"
         }
     });
 
@@ -592,7 +592,7 @@ function cargarCarrito() {
         oIMGTrash.classList = "trashIcon";
         oIMGTrash.onclick = quitarDelCarrito;
 
-        oIMGTrash.src = "../assets/trash.jpg";
+        oIMGTrash.src = "./assets/trash.jpg";
         oIMGTrash.alt = "Quitar Producto";
         oIMGTrash.title = "Quitar Producto";
 
