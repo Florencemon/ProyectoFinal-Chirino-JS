@@ -1,19 +1,19 @@
-**PROYECTO FINAL DEL CURSO DE JAVASCRIPT DE CODERHOUSE**
+ # **PROYECTO FINAL DEL CURSO DE JAVASCRIPT DE CODERHOUSE** #
 
-$$
-OHMYDOG - PETSHOP - TIENDA ONLINE
-$$
+ 
+### OHMYDOG - PETSHOP - TIENDA ONLINE ###
+ 
 
-# FUNCIONALIDADES:
-- BUSQUEDA DE PRODUCTOS POR CATEGORIA, HACIENDO CLICK EN LAS CATEGORIAS EN EL HEADER
-- BUSQUEDA DE PRODUCTOS INGRESANDO EL TEXTO Y PRESIONANDO ENTER O CLICK EN EL BOTON DE BUSCAR
-- PARA CARGAR TODOS LOS PRODUCTOS LUEGO DE LA BUSQUEDA SE HACE CLICK EN EL BOTON X DEL CUADRO DE BUSQUEDA
-- LOGIN DE USUARIO, CON LA OPCION DE RECORDAR LUEGO DE CERRAR LA SESION
-- SI NO ESTA LOGUEADO EL USUARIO AL HACER CLICK EN EL CARRITO, SOLICITA EL LOGIN
-- CARGA DE AVATAR MEDIANTE API SEGUN EL NOMBRE DE USUARIO
-- CARGA DE LA UBICACION DEL USUARIO MEDIANTE API, PARA SELECCION DE SUCURSAL CERCANA
-- COMPRA DIRECTA DEL PRODUCTO MEDIANTE EL BOTON COMPRAR
-- AGREGAR PRODUCTOS AL CARRITO DESCUENTA DEL STOCK DISPONIBLE DEL PRODUCTO
-- AGREGAR O QUITAR CANTIDAD DE PRODUCTOS EN LA PAGINA DEL CARRITO, ACTUALIZA EL STOCK DISPONIBLE DEL PRODUCTO
-- AL AGREGAR PRODUCTOS SE MUESTRA UN MENSAJE EMERGENTE CON LA LIBRERIA SWEET ALERT
-- SELECCION DE PAGO EN CUOTAS CON DIFERENTE FINANCIACION
+>  FUNCIONALIDADES:
+- Búsqueda de productos por categoría, haciendo clic en las categorías en el header
+- Búsqueda de productos ingresando el texto y presionando enter o clic en el botón de buscar
+- Para cargar todos los productos luego de la búsqueda se hace clic en el botón x del cuadro de búsqueda
+- Login de usuario, con la opción de recordar luego de cerrar la sesión
+- Si no está logueado el usuario al hacer clic en el carrito, solicita el Login
+- Carga de avatar mediante api según el nombre de usuario
+- Carga de la ubicación del usuario mediante api, para selección de sucursal cercana
+- Compra directa del producto mediante el botón comprar
+- Agregar productos al carrito descuenta del stock disponible del producto
+- Agregar o quitar cantidad de productos en la página del carrito, actualiza el stock disponible del producto
+- Al agregar productos se muestra un mensaje emergente con la librería sweet alert
+- Selección de pago en cuotas con diferente financiación
