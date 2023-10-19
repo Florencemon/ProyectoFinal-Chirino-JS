@@ -266,7 +266,7 @@ function renderProductos(oProductos) {
 
     // Si no se encuentran productos, creo un producto vacio para renderizarlo
     if (!oProductos.length) {
-        renderProducto(oFila, new Producto(-1, "VACIO", -1, -1, "/assets/vacio.jpg", "SIN CATEGORIA"));
+        renderProducto(oFila, new Producto(-1, "VACIO", -1, -1, "assets/vacio.jpg", "SIN CATEGORIA"));
     }
 
     // Cargo todos los productos del storage y los formateo con HTML
@@ -714,18 +714,18 @@ function inicializarProductos() {
 
     // Inicializo un array de productos para cargarlos en la variable GLOBAL oListaDeProductos
     let productos = [
-        { id: 1, descripcion: "Alimento Gato Festín", precio: 14990, stock: 5, pathIMG: "/assets/shop01.jpg", categoria: "Alimento" },
-        { id: 2, descripcion: "Alimento en lata Gatico felí", precio: 2990, stock: 2, pathIMG: "/assets/shop02.jpg", categoria: "Alimento" },
-        { id: 3, descripcion: "Alimento sabor Salmón Purrr", precio: 6990, stock: 5, pathIMG: "/assets/shop03.jpg", categoria: "Alimento" },
-        { id: 4, descripcion: "Alimento sabor cordero", precio: 1500, stock: 3, pathIMG: "/assets/shop04.jpg", categoria: "Alimento" },
-        { id: 5, descripcion: "Alimento senior OMD", precio: 2510, stock: 5, pathIMG: "/assets/shop05.jpg", categoria: "Alimento" },
-        { id: 6, descripcion: "Pelota de juegos", precio: 3900, stock: 2, pathIMG: "/assets/shop06.jpg", categoria: "Juguetes" },
-        { id: 7, descripcion: "Ratón a pilas", precio: 3500, stock: 4, pathIMG: "/assets/shop07.jpg", categoria: "Juguetes" },
-        { id: 8, descripcion: "Cuerda Dental multitextura", precio: 3990, stock: 5, pathIMG: "/assets/shop08.jpg", categoria: "Juguetes" },
-        { id: 9, descripcion: "Shampoo Free Nature 250 ml", precio: 1200, stock: 4, pathIMG: "/assets/shop09.jpg", categoria: "Bienestar y salud animal" },
-        { id: 10, descripcion: "Hueso De Goma PetsPlast", precio: 1200, stock: 3, pathIMG: "/assets/shop10.jpg", categoria: "Juguetes" },
-        { id: 11, descripcion: "Transportadora anti estrés", precio: 13900, stock: 3, pathIMG: "/assets/shop11.jpg", categoria: "Bienestar y salud animal" },
-        { id: 12, descripcion: "Cucha simil madera", precio: 17990, stock: 2, pathIMG: "/assets/shop12.jpg", categoria: "Bienestar y salud animal" }
+        { id: 1, descripcion: "Alimento Gato Festín", precio: 14990, stock: 5, pathIMG: "assets/shop01.jpg", categoria: "Alimento" },
+        { id: 2, descripcion: "Alimento en lata Gatico felí", precio: 2990, stock: 2, pathIMG: "assets/shop02.jpg", categoria: "Alimento" },
+        { id: 3, descripcion: "Alimento sabor Salmón Purrr", precio: 6990, stock: 5, pathIMG: "assets/shop03.jpg", categoria: "Alimento" },
+        { id: 4, descripcion: "Alimento sabor cordero", precio: 1500, stock: 3, pathIMG: "assets/shop04.jpg", categoria: "Alimento" },
+        { id: 5, descripcion: "Alimento senior OMD", precio: 2510, stock: 5, pathIMG: "assets/shop05.jpg", categoria: "Alimento" },
+        { id: 6, descripcion: "Pelota de juegos", precio: 3900, stock: 2, pathIMG: "assets/shop06.jpg", categoria: "Juguetes" },
+        { id: 7, descripcion: "Ratón a pilas", precio: 3500, stock: 4, pathIMG: "assets/shop07.jpg", categoria: "Juguetes" },
+        { id: 8, descripcion: "Cuerda Dental multitextura", precio: 3990, stock: 5, pathIMG: "assets/shop08.jpg", categoria: "Juguetes" },
+        { id: 9, descripcion: "Shampoo Free Nature 250 ml", precio: 1200, stock: 4, pathIMG: "assets/shop09.jpg", categoria: "Bienestar y salud animal" },
+        { id: 10, descripcion: "Hueso De Goma PetsPlast", precio: 1200, stock: 3, pathIMG: "assets/shop10.jpg", categoria: "Juguetes" },
+        { id: 11, descripcion: "Transportadora anti estrés", precio: 13900, stock: 3, pathIMG: "assets/shop11.jpg", categoria: "Bienestar y salud animal" },
+        { id: 12, descripcion: "Cucha simil madera", precio: 17990, stock: 2, pathIMG: "assets/shop12.jpg", categoria: "Bienestar y salud animal" }
     ];
 
     for (let i = 0; i < productos.length; i++) {
