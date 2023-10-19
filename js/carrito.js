@@ -592,7 +592,7 @@ function cargarCarrito() {
         oIMGTrash.classList = "trashIcon";
         oIMGTrash.onclick = quitarDelCarrito;
 
-        oIMGTrash.src = "./assets/trash.jpg";
+        oIMGTrash.src = "/assets/trash.jpg";
         oIMGTrash.alt = "Quitar Producto";
         oIMGTrash.title = "Quitar Producto";
 
