@@ -401,7 +401,7 @@ function renderLogin() {
 
     let oAnchor = document.createElement("a");
     oAnchor.classList = "dropdown-item align-self-center";
-    oAnchor.href = "/pages/login.html";
+    oAnchor.href = "./pages/login.html";
     oAnchor.innerText = "INGRESAR";
     oListItem.appendChild(oAnchor);
 }
@@ -702,7 +702,7 @@ function mostrarPaginaDelCarrito() {
     localStorage.setItem("mostrarPagina", "carrito");
 
     // Si hay usuario logueado, muestro la pagina del carrito, sino muestro la pagina de login
-    window.location.href = oUsuario != null ? "/pages/carrito.html" : "/pages/login.html";
+    window.location.href = oUsuario != null ? "../pages/carrito.html" : "./pages/login.html";
 }
 
  
